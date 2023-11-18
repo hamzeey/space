@@ -10,6 +10,9 @@ export default {
         'mobile': "url('./src/Asssets/background-home-mobile.jpg')",
         'tablet': "url('./src/Asssets/background-home-tablet.jpg')",
         'desktop': "url('./src/Asssets/background-home-desktop.jpg')",
+      },
+      fontFamily: {
+        'barlow': ['Barlow Condensed', 'sans-serif']
       }
     },
   },

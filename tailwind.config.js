@@ -7,13 +7,24 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'mobile': "url('./src/Asssets/background-home-mobile.jpg')",
-        'tablet': "url('./src/Asssets/background-home-tablet.jpg')",
-        'desktop': "url('./src/Asssets/background-home-desktop.jpg')",
+        'home-mobile': "url('./src/Asssets/background-home-mobile.jpg')",
+        'home-tablet': "url('./src/Asssets/background-home-tablet.jpg')",
+        'home-desktop': "url('./src/Asssets/background-home-desktop.jpg')",
+        'destination-mobile': "url('./src/Asssets/background-destination-mobile.jpg')",
+        'destination-tablet': "url('./src/Asssets/background-destination-tablet.jpg')",
+        'destination-desktop': "url('./src/Asssets/background-destination-desktop.jpg')",
+        'crew-mobile': "url('./src/Asssets/background-crew-mobile.jpg')",
+        'crew-tablet': "url('./src/Asssets/background-crew-tablet.jpg')",
+        'crew-desktop': "url('./src/Asssets/background-crew-desktop.jpg')",
+        'technology-mobile': "url('./src/Asssets/background-technology-mobile.jpg')",
+        'technology-tablet': "url('./src/Asssets/background-technology-tablet.jpg')",
+        'technology-desktop': "url('./src/Asssets/background-technology-desktop.jpg')"
       },
       fontFamily: {
-        'barlow': ['Barlow Condensed', 'sans-serif']
-      }
+        'barlow': ['Barlow Condensed', 'sans-serif'],
+        'bellefair': ['Bellefair', 'serif']
+      },
+
     },
   },
   plugins: [],

@@ -14,7 +14,7 @@ function Main() {
 
                 <div className='flex justify-center '>
                     <div className='w-36 h-36 lg:w-48 lg:h-48 rounded-full bg-white flex  justify-center items-center mt-24  md:mt-16 lg:mt-64 lg:ml-24 '>
-                        <h1 className='text-black text-3xl font-bellefair font-semibold'>Explore</h1>
+                        <h1 className='text-zinc-950 text-3xl font-bellefair font-medium'>Explore</h1>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export default {
         'crew-desktop': "url('./src/Asssets/background-crew-desktop.jpg')",
         'technology-mobile': "url('./src/Asssets/background-technology-mobile.jpg')",
         'technology-tablet': "url('./src/Asssets/background-technology-tablet.jpg')",
-        'technology-desktop': "url('./src/Asssets/background-technology-desktop.jpg')"
+        'technology-desktop': "url('./src/Asssets/background-technology-desktop.jpg')",
       },
       fontFamily: {
         'barlow': ['Barlow Condensed', 'sans-serif'],

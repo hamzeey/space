@@ -1,5 +1,3 @@
-// import mars from '../../Asssets/image-mars.png'
-
 function Mars() {
     return (
         <div>

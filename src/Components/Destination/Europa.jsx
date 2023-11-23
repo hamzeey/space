@@ -1,5 +1,3 @@
-// import europa from '../../Asssets/image-europa.png'
-
 function Europa() {
     return (
         <div>

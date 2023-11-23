@@ -9,6 +9,10 @@ import Moon from './Components/Destination/Moon'
 import Mars from './Components/Destination/Mars'
 import Titan from './Components/Destination/Titan'
 import Europa from './Components/Destination/Europa'
+import Douglas from './Components/Crew/Douglas'
+import Mark from './Components/Crew/Mark'
+import Victor from './Components/Crew/Victor'
+import Ansari from './Components/Crew/Ansari'
 
 
 function App() {
@@ -26,7 +30,13 @@ function App() {
           <Route path='titan' element={<Titan />} />
           <Route path='europa' element={<Europa />} />
         </Route>
-        <Route path='/crew' element={<Crew />} />
+        <Route path='/crew' element={<Crew />}>
+          <Route index element={<Douglas />} />
+          <Route path='douglas' element={<Douglas />} />
+          <Route path='mark' element={<Mark />} />
+          <Route path='victor' element={<Victor />} />
+          <Route path='ansari' element={<Ansari />} />
+        </Route>
         <Route path='/technology' element={<Technology />} />
       </Routes>
     </>

@@ -44,10 +44,10 @@ function Crew() {
         setAnsAcive(true)
     }
     return (
-        <div className=" bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop h-screen bg-no-repeat bg-center bg-cover  lg:pt-9">
+        <div className=" bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop h-screen bg-no-repeat bg-center bg-cover  lg:pt-3  ">
             <Nav />
 
-            <div className="lg:grid grid-cols-2">
+            <div className="lg:grid lg:grid-cols-2">
                 <div >
                     <div className="flex justify-center md:justify-start md:ml-5 font-barlow mt-6 lg:mt-10 lg:justify-center text-xl tracking-wide text-white ">
                         <p><span className="text-gray-500 mr-2">02</span> MEET YOUR CREW</p>

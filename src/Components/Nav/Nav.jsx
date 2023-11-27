@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Hamburger from '../../Asssets/icon-hamburger.svg'
 import close from '../../Asssets/icon-close.svg'
 import Logo from '../../Asssets/logo.svg'
-import './Nav.css'
+
 import { NavLink } from 'react-router-dom'
 
 

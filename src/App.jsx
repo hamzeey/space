@@ -13,6 +13,9 @@ import Douglas from './Components/Crew/Douglas'
 import Mark from './Components/Crew/Mark'
 import Victor from './Components/Crew/Victor'
 import Ansari from './Components/Crew/Ansari'
+import Vehicle from './Components/Technology/Vehicle'
+import Capsule from './Components/Technology/Capsule'
+import Spaceport from './Components/Technology/Spaceport'
 
 
 function App() {
@@ -37,7 +40,12 @@ function App() {
           <Route path='victor' element={<Victor />} />
           <Route path='ansari' element={<Ansari />} />
         </Route>
-        <Route path='/technology' element={<Technology />} />
+        <Route path='/technology' element={<Technology />}>
+          <Route index element={<Vehicle />} />
+          <Route path='vehicle' element={<Vehicle />} />
+          <Route path='spaceport' element={<Spaceport />} />
+          <Route path='capsule' element={<Capsule />} />
+        </Route>
       </Routes>
     </>
   )

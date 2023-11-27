@@ -61,24 +61,24 @@ function Crew() {
 
                     <nav className="flex justify-center items-center gap-6 mt-6  md:hidden">
 
-                        <Link to='douglas' onClick={handleclick1}> <div className={`  ${DougActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div> </Link>
-                        <Link to='mark' onClick={handleclick2}><div className={` ${MarkActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div></Link>
-                        <Link to='victor' onClick={handleclick3}><div className={`  ${VicActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div> </Link>
-                        <Link to='ansari' onClick={handleclick4}> <div className={` ${AnsActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div></Link>
+                        <Link to='douglas' onClick={handleclick1}> <div className={`  ${DougActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div> </Link>
+                        <Link to='mark' onClick={handleclick2}><div className={` ${MarkActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div></Link>
+                        <Link to='victor' onClick={handleclick3}><div className={`  ${VicActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div> </Link>
+                        <Link to='ansari' onClick={handleclick4}> <div className={` ${AnsActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div></Link>
 
                     </nav>
                     <Outlet />
                     <nav className="md:flex md:justify-center md:items-center md:gap-6 md:mt-7 hidden ">
 
-                        <Link to='douglas' onClick={handleclick1}> <div className={`  ${DougActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div> </Link>
-                        <Link to='mark' onClick={handleclick2}><div className={` ${MarkActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div></Link>
-                        <Link to='victor' onClick={handleclick3}><div className={` ${VicActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div> </Link>
-                        <Link to='ansari' onClick={handleclick4}> <div className={` ${AnsActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full bg-white`}></div></Link>
+                        <Link to='douglas' onClick={handleclick1}> <div className={`  ${DougActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div> </Link>
+                        <Link to='mark' onClick={handleclick2}><div className={` ${MarkActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div></Link>
+                        <Link to='victor' onClick={handleclick3}><div className={` ${VicActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div> </Link>
+                        <Link to='ansari' onClick={handleclick4}> <div className={` ${AnsActive ? 'bg-white' : 'bg-gray-500'} w-3 h-3 rounded-full `}></div></Link>
 
                     </nav>
                 </div>
                 <div className="flex justify-center mt-6 lg:mt-0 ">
-                    <img src={Image} alt="crew member" className=" w-48 md:w-56 lg:w-80 lg:mt-5 hidden md:block " />
+                    <img src={Image} alt="crew member" className=" md:w-[220px] lg:w-[350px] lg:mt-5 hidden md:block " />
                 </div>
             </div>
         </div>

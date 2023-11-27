@@ -24,9 +24,10 @@ export default {
         'barlow': ['Barlow Condensed', 'sans-serif'],
         'bellefair': ['Bellefair', 'serif']
       },
-      borderWidth: {
-        'border-20': '20px'
-      },
+      colors: {
+        'accent': '#D0D6F9'
+
+      }
 
     },
   },

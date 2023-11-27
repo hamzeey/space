@@ -2,7 +2,7 @@
 
 function Vehicle() {
     return (
-        <div className="mt-20">
+        <div className="md:mt-10 lg:mt-20">
             <div className="uppercase text-white mt-4 ">
                 <h3 className="flex justify-center lg:justify-start  text-gray-400 tracking-wide">The terminology...</h3>
                 <h1 className="flex justify-center text-2xl lg:justify-start lg:mt-4 lg:mb-2 tracking-widest mt-2">launch vehicle</h1>

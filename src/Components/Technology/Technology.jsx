@@ -16,6 +16,7 @@ function Technology() {
     const [src2, setsrc2] = useState(vehicle2)
 
     const handleclick1 = () => {
+
         setsrc(vehicle)
         setsrc2(vehicle2)
         setVehicleActive(true)
@@ -23,6 +24,7 @@ function Technology() {
         setCapsuleActive(false)
     }
     const handleclick2 = () => {
+
         setsrc(spaceport)
         setsrc2(spaceport2)
         setVehicleActive(false)
@@ -30,6 +32,7 @@ function Technology() {
         setCapsuleActive(false)
     }
     const handleclick3 = () => {
+
         setsrc(capsule)
         setsrc2(capsule2)
         setVehicleActive(false)
@@ -47,8 +50,10 @@ function Technology() {
                         <p><span className="text-gray-500 mr-4 ">03</span>SPACE LAUNCH 101</p>
                     </div>
                     <div className="flex justify-center mt-2 sm:mt-2 mb-4 lg:mt-8">
-                        <img src={src} alt="" className=" w-full md:h-[250px] lg: hidden " />
-                        <img src={src2} alt="" className=" w-[420px]  hidden lg:block" />
+                        <img src={src} alt="" className=" w-full md:h-[250px] flex lg:hidden " />
+                    </div>
+                    <div className="flex justify-center mt-2 sm:mt-2 mb-4 lg:mt-4">
+                        <img src={src2} alt="" className=" w-[400px]  hidden lg:block" />
                     </div>
                 </div>
                 <div className="lg:order-first ">
